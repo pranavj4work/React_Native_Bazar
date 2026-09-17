@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Bazaar",
+    "slug": "rn-store",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": ["myapp", "rnstore"],
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F4F1EC"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rnstore.app"
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "resize",
+      "package": "com.rnstore.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#C2410C",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-image"]
+  }
+}
