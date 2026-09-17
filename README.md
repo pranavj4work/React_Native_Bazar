@@ -34,8 +34,8 @@ UI ──► Zustand cart/session/orders ──► AsyncStorage
 
 ## Run
 
-npm install
-npx expo start / npm start
+-npm install
+-npx expo start / npm start
 
 
 Open in **Expo Go** (iOS or Android).
